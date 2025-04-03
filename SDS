@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KorCanlar İNŞ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        nav {
+            background: #555;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 50px;
+        }
+        .projects img, .about img {
+            width: 80%;
+            max-width: 800px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="KorCanlar İNŞ Logo">
+        KorCanlar İNŞ - İnşaatta Güven ve Kalite
+    </header>
+    <nav>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#projeler">Projelerimiz</a>
+        <a href="#insaat">İnşaat Sektörü</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+    <div class="container">
+        <section id="hakkimizda" class="about">
+            <h2>Hakkımızda</h2>
+            <p>KorCanlar İNŞ olarak inşaat sektöründe güven ve kaliteyi ön planda tutuyoruz. 10 yılı aşkın tecrübemizle modern yapılar inşa ediyoruz.</p>
+            <img src="hakkimizda.jpg" alt="Şirketimiz Hakkında">
+        </section>
+        <section id="projeler" class="projects">
+            <h2>Projelerimiz</h2>
+            <p>Devam eden ve tamamlanan projelerimiz hakkında bilgi almak için bizimle iletişime geçin.</p>
+            <img src="proje1.jpg" alt="Tamamlanmış Proje">
+            <img src="proje2.jpg" alt="Devam Eden Proje">
+        </section>
+        <section id="insaat">
+            <h2>İnşaat Sektörü</h2>
+            <p>İnşaat sektörü, modern toplumların gelişimi için kritik bir öneme sahiptir. Kaliteli ve sürdürülebilir yapılar, şehirlerin geleceğini şekillendirir.</p>
+            <img src="insaat.jpg" alt="İnşaat Çalışmaları">
+        </section>
+        <section id="iletisim">
+            <h2>İletişim</h2>
+            <p>Bizimle iletişime geçmek için: info@korcanlarinsaat.com</p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2025 KorCanlar İNŞ. Tüm hakları saklıdır.
+    </footer>
+</body>
+</html>
